@@ -161,7 +161,7 @@ Lecode.S_TBS.Config.Marks = {
         triggers: {
             "entering,turn_start": {
                 stop_movement: true,
-    
+
             }
         }
     },
@@ -213,6 +213,13 @@ Lecode.S_TBS.Config.Projectiles = {
         trajectory: "zigzag(40)"
     },
 
+
+    "magical_ball": {
+        filename: "ManaBall",
+        speed: 9,
+        trajectory: "line(0)"
+    },
+
     "fire_ball": {
         anim: [147, 45, 38],
         adapt_angle: true,
@@ -247,7 +254,7 @@ Lecode.S_TBS.Config.Projectiles = {
         speed: 2,
         trajectory: "bounce(250)"
     },
-    
+
     "dagger": {
         filename: "Dagger",
         adapt_angle: true,
