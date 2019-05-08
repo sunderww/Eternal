@@ -1750,7 +1750,8 @@ InputHandlerTBS.updateExplorationInput = function () {
     var x = $gameMap.canvasToMapX(TouchInput.x);
     var y = $gameMap.canvasToMapY(TouchInput.y);
     var cell = BattleManagerTBS.getCellAt(x, y);
-    BattleManagerTBS.centerCell(cell);
+    if (cell)
+      BattleManagerTBS.centerCell(cell);
 };
 
 InputHandlerTBS.isTouchBlocked = function () {
