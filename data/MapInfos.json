@@ -3,6 +3,9 @@ null,
 {"id":1,"expanded":true,"name":"Headquarters","order":1,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":2,"expanded":false,"name":"Stop The Bandits","order":2,"parentId":1,"scrollX":816,"scrollY":624},
 {"id":3,"expanded":false,"name":"Lava Cave","order":3,"parentId":1,"scrollX":591,"scrollY":2017},
-{"id":4,"expanded":false,"name":"QG Aquara","order":4,"parentId":0,"scrollX":571,"scrollY":885},
-{"id":5,"expanded":false,"name":"Intro","order":5,"parentId":0,"scrollX":832,"scrollY":640}
+{"id":4,"expanded":false,"name":"QG Aquara","order":6,"parentId":6,"scrollX":571,"scrollY":909},
+{"id":5,"expanded":false,"name":"Intro","order":4,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":6,"expanded":true,"name":"Aquara","order":5,"parentId":0,"scrollX":1247,"scrollY":1739},
+{"id":7,"expanded":false,"name":"Marché Esclaves","order":7,"parentId":6,"scrollX":832,"scrollY":640},
+{"id":8,"expanded":false,"name":"MAP008","order":8,"parentId":6,"scrollX":579,"scrollY":391}
 ]
