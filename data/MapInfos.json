@@ -9,6 +9,6 @@ null,
 {"id":7,"expanded":false,"name":"Marché Esclaves","order":11,"parentId":11,"scrollX":817.0909090909091,"scrollY":439.6363636363636},
 {"id":8,"expanded":false,"name":"Maison Helia","order":10,"parentId":10,"scrollX":631.6363636363636,"scrollY":426.54545454545456},
 {"id":9,"expanded":false,"name":"Phare","order":7,"parentId":6,"scrollX":631.6363636363636,"scrollY":426.54545454545456},
-{"id":10,"expanded":true,"name":"Detis Ouest","order":9,"parentId":11,"scrollX":816,"scrollY":1280},
+{"id":10,"expanded":true,"name":"Detis Ouest","order":9,"parentId":11,"scrollX":817.0909090909091,"scrollY":1284},
 {"id":11,"expanded":true,"name":"Port Detis","order":8,"parentId":6,"scrollX":631.6363636363636,"scrollY":426.54545454545456}
 ]
