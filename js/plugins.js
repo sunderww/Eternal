@@ -42,8 +42,9 @@ var $plugins =
 {"name":"YEP_SkillCore","status":true,"description":"v1.11 Skills are now given more functions and the ability\nto require different types of costs.","parameters":{"---General---":"","Cost Padding":"4","Command Alignment":"center","Window Columns":"2","---HP Costs---":"","HP Format":"%1%2","HP Font Size":"20","HP Text Color":"18","HP Icon":"162","---MP Costs---":"","MP Format":"%1%2","MP Font Size":"20","MP Text Color":"23","MP Icon":"165","---TP Costs---":"","TP Format":"%1%2","TP Font Size":"20","TP Text Color":"29","TP Icon":"164"}},
 {"name":"YEP_X_SkillCooldowns","status":true,"description":"v1.11 (Requires YEP_SkillCore.js) Cooldowns can be applied\nto skills to prevent them from being used continuously.","parameters":{"---Cooldown---":"","Cooldown Format":"%1CD","Cooldown Font Size":"20","Cooldown Text Color":"6","Cooldown Icon":"75","Cooldown After Battle":"-10","Cooldown Steps":"5","Cooldown Bypass":"1 2 3 4 5 6 7","---Warmup---":"","Warmup Format":"%1WU","Warmup Font Size":"20","Warmup Text Color":"4","Warmup Icon":"75","---Battle Core---":"","Time Based":"false","Turn Time":"100"}},
 {"name":"YEP_EventMiniLabel","status":true,"description":"v1.12 Creates miniature-sized labels over events to allow\nyou to insert whatever text you'd like in them.","parameters":{"Default Show":"true","Minimum Width":"136","Font Size":"20","X Buffer":"0","Y Buffer":"36","Battle Transition":"false"}},
-{"name":"LeDamageFormula","status":true,"description":"Adds balanced damage formula","parameters":{}},
+{"name":"LeDamageFormula","status":true,"description":"Adds balanced damage formula","parameters":{"Bare-Hands Weapon ID":"1\r"}},
 {"name":"Rhyme_MapSmoothScrolling","status":true,"description":"this plugin permit to smooth scroll in map","parameters":{"SpeedDivider":"8"}},
 {"name":"-------------------------","status":true,"description":"","parameters":{}},
-{"name":"LeTBS_YanflyPatch","status":true,"description":"Fixes compatibility issues with Yanfly's plugins","parameters":{}}
+{"name":"LeTBS_YanflyPatch","status":true,"description":"Fixes compatibility issues with Yanfly's plugins","parameters":{}},
+{"name":"HealOnLevelUp","status":true,"description":"Allows you to heal actors on level up","parameters":{"All HP":"Y","All MP":"Y","All States":"Y"}}
 ];

@@ -31,6 +31,13 @@ Lecode.S_DamageFormula = {};
  *
  * This plugin is just a tool to setup damage formula more easily.
  * If your formula is too long or too elaborated you can simply put it bellow.
+ *
+ * ============================================================================
+ * @param Bare-Hands Weapon ID
+ * @desc The weapon in the database that represents bare-handed.
+ * Use when a battler is not holding a weapon.
+ * @default 1
+ * ============================================================================
  */
 //#=============================================================================
 
@@ -40,27 +47,81 @@ Lecode.S_DamageFormula = {};
 -------------------------------------------------------------------------*/
 var parameters = PluginManager.parameters('LeDamageFormula');
 
+(function ($) {
 
-/*-------------------------------------------------------------------------
-* Game_Action
--------------------------------------------------------------------------*/
-Lecode.S_DamageFormula.oldGameAction_evalDamageFormula = Game_Action.prototype.evalDamageFormula;
-Game_Action.prototype.evalDamageFormula = function (target) {
-    var a = this.subject();
-    var b = target;
+  /*------------------------------------------------------------------------
+  * Helper functions
+  -------------------------------------------------------------------------*/
+  $.Regex = /<weapon[-_ ]damage>([\s\S]*?)<\/weapon[-_ ]damage>/im
+  $.MagicalRegex = /<weapon[-_ ]damage[-_ ]magical>/im
+  $.params = PluginManager.parameters("LeDamageFormula");
+  $.barehandId = Math.floor($.params["Bare-Hands Weapon ID"]);
 
-    this.phyDmg = function (base) {
-        //var rawDmg = (a.atk * 4 - b.def * 2) * base * 0.01;
-        var rawDmg = base + (a.atk * 4 * base * 0.01);
-        var reduction = b.def / (b.def + rawDmg);
-        return Math.floor(rawDmg - reduction * rawDmg);
-    };
-    this.magDmg = function (base) {
-        //var rawDmg = (a.mat * 4 - b.mdf * 2) * base * 0.01;
+  var getWeaponDamage = function(weapon, a, b) {
+    if (weapon.damageFormula === undefined) {
+      weapon.damageFormula = "0";
 
-        var rawDmg = base + (a.mat * 4 * base * 0.01);
-        var reduction = b.mdf / (b.mdf + rawDmg);
-        return Math.floor(rawDmg - reduction * rawDmg);
-    };
-    return Lecode.S_DamageFormula.oldGameAction_evalDamageFormula.call(this, target);
-};
+      var res = $.Regex.exec(weapon.note);
+      if (res) {
+        weapon.damageFormula = res[1];
+      }
+    }
+
+    return eval(weapon.damageFormula);
+  };
+
+  var getWeapon = function(battler) {
+    var weapons = [];
+    if (battler.weapons)
+      weapons = battler.weapons();
+
+    // Doesn't allow multi-weapons, so return first result
+    return weapons.length > 0 ? weapons[0] : $dataWeapons[$.barehandId];
+  }
+
+  var isWeaponMagical = function(weapon) {
+    if (weapon.isMagical === undefined) {
+      weapon.isMagical = false;
+      if (weapon.note.match($.MagicalRegex)) {
+        weapon.isMagical = true;
+      }
+    }
+    return weapon.isMagical;
+  }
+
+
+  /*-------------------------------------------------------------------------
+  * Game_Action
+  -------------------------------------------------------------------------*/
+  $.oldGameAction_evalDamageFormula = Game_Action.prototype.evalDamageFormula;
+  Game_Action.prototype.evalDamageFormula = function (target) {
+      var a = this.subject();
+      var b = target;
+
+      this.phyDmg = function (base) {
+          //var rawDmg = (a.atk * 4 - b.def * 2) * base * 0.01;
+          var rawDmg = base + (a.atk * 4 * base * 0.01);
+          var reduction = b.def / (b.def + rawDmg);
+          return Math.floor(rawDmg - reduction * rawDmg);
+      };
+
+      this.magDmg = function (base) {
+          //var rawDmg = (a.mat * 4 - b.mdf * 2) * base * 0.01;
+
+          var rawDmg = base + (a.mat * 4 * base * 0.01);
+          var reduction = b.mdf / (b.mdf + rawDmg);
+          return Math.floor(rawDmg - reduction * rawDmg);
+      };
+
+      this.weaponDamage = function () {
+        var weapon = getWeapon(a);
+        var base = getWeaponDamage(weapon, a, b);
+        var magical = isWeaponMagical(weapon);
+
+        return magical ? this.magDmg(base) : this.phyDmg(base);
+      }
+
+      return $.oldGameAction_evalDamageFormula.call(this, target);
+  };
+
+})(Lecode.S_DamageFormula);
