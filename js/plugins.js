@@ -46,5 +46,7 @@ var $plugins =
 {"name":"Rhyme_MapSmoothScrolling","status":true,"description":"this plugin permit to smooth scroll in map","parameters":{"SpeedDivider":"8"}},
 {"name":"-------------------------","status":true,"description":"","parameters":{}},
 {"name":"LeTBS_YanflyPatch","status":true,"description":"Fixes compatibility issues with Yanfly's plugins","parameters":{}},
-{"name":"HealOnLevelUp","status":true,"description":"Allows you to heal actors on level up","parameters":{"All HP":"Y","All MP":"Y","All States":"Y"}}
+{"name":"HealOnLevelUp","status":true,"description":"Allows you to heal actors on level up","parameters":{"All HP":"Y","All MP":"Y","All States":"Y"}},
+{"name":"YEP_ItemCore","status":true,"description":"v1.30 Changes the way Items are handled for your game\nand the Item Scene, too.","parameters":{"---General---":"","Max Items":"0","Max Weapons":"100","Max Armors":"100","Starting ID":"3000","Random Variance":"0","Negative Variance":"false","Name Format":"%1%2%3%4","Name Spacing":"true","Boost Format":"(+%1)","---Item Scene---":"","Updated Scene Item":"true","List Equipped Items":"true","Show Icon":"true","Icon Size":"128","Font Size":"20","Command Alignment":"center","Recovery Format":"%1 Heal","Add State":"+State","Add Buff":"+Buff","Remove State":"-State","Remove Buff":"-Buff","Maximum Icons":"4","Use Command":"Use %1","Carry Format":"%1/%2","--Independent Items--":"","Midgame Note Parsing":"true"}},
+{"name":"YEP_X_ItemRequirements","status":true,"description":"v1.02 (Requires YEP_ItemCore.js) Place requirements on\nitems before they can be used.","parameters":{}}
 ];
