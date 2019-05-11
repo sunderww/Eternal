@@ -206,6 +206,13 @@ Lecode.S_TBS.Config.Projectiles = {
         trajectory: "curved_jump(150)"
     },
 
+    "earth_arrow": {
+        filename: "Arrow",
+        adapt_angle: true,
+        speed: 20,
+        trajectory: "line(0)"
+    },
+
     "ghost_arrow": {
         anim: [172, 36, 16],
         adapt_angle: "to_control_points",
@@ -911,6 +918,16 @@ Lecode.S_TBS.Config.Sequences = {
         "wait: 15",
         "summon: wind_spirit, cursor_cell",
         "call: post-skill"
+    ],
+
+    "earth_arrow": [
+      "call: pre-skill",
+      "projectile: earth_arrow, user_cell, cursor_cell",
+      "effects: {aoe}_battlers, current_obj, obj_anim",
+      "set_speed: {aoe}_battlers, +12",
+      "push: {aoe}_battlers, user_cell, 1",
+      "set_speed: {aoe}_battlers, -12",
+      "call: post-skill"
     ],
 
     "great_wind": [
