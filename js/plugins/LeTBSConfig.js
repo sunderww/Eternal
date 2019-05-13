@@ -77,7 +77,7 @@ Lecode.S_TBS.Config.Marks = {
         triggers: {
             "turn_end": {
                 stop_movement: false,
-                skill_effects: 77,
+                skill_effects: 180,
                 effects_aoe: "circle(0)"
             }
         },
