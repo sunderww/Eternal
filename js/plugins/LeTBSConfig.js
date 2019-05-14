@@ -190,6 +190,20 @@ Lecode.S_TBS.Config.Aura = {
         action: {
             skill: 91
         }
+    },
+
+    "aquara_crystal": {
+        size: "circle(2)",
+        affect_caster: false,
+        target_type: "ally",
+        states: [97]
+    },
+
+    "aquara_crystal_party": {
+        size: "circle(3)",
+        affect_caster: false,
+        target_type: "enemy",
+        states: [98]
     }
 
 };
@@ -329,6 +343,16 @@ Lecode.S_TBS.Config.Trajectories = {
 * Summons
 -------------------------------------------------------------------------*/
 Lecode.S_TBS.Config.Summons = {
+
+    "aquara_golem": {
+      turn_order: "after_caster",
+      kind: "enemy",
+      id: 25,
+      tied_to_caster: true,
+      visible_in_timeline: true,
+      stats: {
+      }
+    },
 
     "ice_block": {
         turn_order: "none",

@@ -31,32 +31,32 @@ Lecode.S_TBS.RTPUse = {};
  *
  * This plugin adds various tags to use RTP graphics automatically for entities
  * and some displays.
- * 
+ *
  * ============================================================================
  * Use Characters For Entities
  * ============================================================================
  *
  * In order for your actors or enemies to use a character as a graphic, use the
  * following instructions inside LeTBS_Sprite tag:
- * 
+ *
  * <letbs_sprite>
  * pose([Pose Name]): use_chara, [Filename], [Index], [LineIndex], [FrameIndex]
  * </letbs_sprite>
- * 
+ *
  * For an actor, the parameters are optional. In such case, the actor's own
  * character will be used.
- * 
+ *
  * ============================================================================
  * Auto Graphic Use
  * ============================================================================
  *
  * Some tags allow to automatically use an entity's graphic on the huds:
- * 
+ *
  * <letbs_sprite>
  * turn_order: auto          Uses the 'idle' graphic on the turn order hud
  * status_sprite: auto       Uses the 'idle' graphic in the status window
  * </letbs_sprite>
- * 
+ *
  */
 //#=============================================================================
 
@@ -133,7 +133,8 @@ TBSEntity_Sprite.prototype.processBitmapsConfig = function (poseConfig, hue) {
         this._useFrameOrder[pose] = true;
         this._poses.push(pose);
         var array = data.split(",");
-        var charaName = battler.isActor() ? battler.characterName() : array[1].trim();
+        // DrQ: Actors still use params, if they have them
+        var charaName = (battler.isActor() && !array[1]) ? battler.characterName() : array[1].trim();
         var fullBitmap = ImageManager.loadCharacter(charaName, hue);
         fullBitmap.addLoadListener(this.createCharaBitmap.bind(this, fullBitmap, array, pose));
         return;
@@ -143,12 +144,14 @@ TBSEntity_Sprite.prototype.processBitmapsConfig = function (poseConfig, hue) {
 
 TBSEntity_Sprite.prototype.createCharaBitmap = function (fbitmap, array, pose) {
     var battler = this._entity.battler();
-    var charaIndex = battler.isActor() ? battler.characterIndex() : Number(array[2].trim());
+    // DrQ: Actors still use params, if they have them
+    var charaIndex = (battler.isActor() && !array[2]) ? battler.characterIndex() : Number(array[2].trim());
     var lineIndex = array[3] ? Number(array[3].trim()) : undefined;
     var frameIndex = array[4] ? Number(array[4].trim()) : undefined;
-    var bitmap = new Bitmap(48 * 3, 48 * 4);
+    //var bitmap = new Bitmap(48 * 3, 48 * 4);
     var pw = fbitmap.width / 4;
     var ph = fbitmap.height / 2;
+    var bitmap = new Bitmap(pw, ph);
     var n = charaIndex;
     var sx = (n % 4) * pw;
     var sy = Math.floor(n / 4) * ph;
@@ -159,13 +162,15 @@ TBSEntity_Sprite.prototype.createCharaBitmap = function (fbitmap, array, pose) {
         if (frameIndex >= 0) {
             pw /= 3;
             sx = frameIndex * pw;
-            var newBmp = new Bitmap(48, 48);
+            //var newBmp = new Bitmap(48, 48);
+            var newBmp = new Bitmap(pw, ph);
             newBmp.blt(bitmap, sx, sy, pw, ph, 0, 0);
             this._bitmaps[pose] = newBmp;
             this._maxFrame[pose] = 0;
             this._nbrLines[pose] = 1;
         } else {
-            var newBmp = new Bitmap(48 * 3, 48);
+            //var newBmp = new Bitmap(48 * 3, 48);
+            var newBmp = new Bitmap(pw, ph);
             newBmp.blt(bitmap, 0, sy, pw, ph, 0, 0);
             this._bitmaps[pose] = newBmp;
             this._maxFrame[pose] = 2;
@@ -178,7 +183,6 @@ TBSEntity_Sprite.prototype.createCharaBitmap = function (fbitmap, array, pose) {
     }
     this._frameLoaded++;
 };
-
 
 /*-------------------------------------------------------------------------
 * TBSTurnOrderVisual
