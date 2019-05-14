@@ -722,8 +722,6 @@ Window_EquipItem.prototype.setSlotId = function(slotId) {
 
 Yanfly.Equip.Window_EquipItem_includes = Window_EquipItem.prototype.includes;
 Window_EquipItem.prototype.includes = function(item) {
-  console.log("Includes :");
-  console.log(item);
     if (item === null && this._actor && this._data.length > 0) {
       var typeId = this._actor.equipSlots()[this._slotId];
       if (Yanfly.Param.EquipNonRemove.contains(typeId)) return false;
