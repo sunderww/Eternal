@@ -332,6 +332,11 @@ Lecode.S_TBS = {};
  * @desc If by default dead characters have corpse. Use has_corpse or has_no_corpse tags.
  * @default false
  *
+ * @param Default MP
+ * @desc This will be evaluated for each battler to determine their MP at battle start.
+ * Store the result in the mp variable. The a variable contains the battler.
+ * @default mp = a.mhp / 2
+ *
  * @param Exploration Input
  * @desc Input to trigger exploration.
  * @default shift
@@ -620,6 +625,10 @@ Lecode.S_TBS = {};
  * @desc Enable the one time offense feature. (See doc)
  * @default true
  *
+ * @param One Time Action Or Object
+ * @desc You can only use attack or object once, if enabled.
+ * @default true
+ *
  * @param Auto Pass
  * @desc Enable the auto pass feature. (See doc)
  * @default true
@@ -675,7 +684,8 @@ Lecode.S_TBS.placedBattlerAnim = Number(parameters["Placed Animation"] || 124)	;
 Lecode.S_TBS.instantiateAll = String(parameters["Instantiate All"] || 'true') === 'true'	;	//	(): Instantiate all enemies at the same time.
 Lecode.S_TBS.displayStartMessages = String(parameters["Display Start Messages"] || 'false') === 'true'	;	//	(): Show start messages ?
 // Divider: -- Misc --
-Lecode.S_TBS.corpse = String(parameters["Corpse"] || 'true') === 'true'	;	//	(): Input to trigger exploration.
+Lecode.S_TBS.corpse = String(parameters["Corpse"] || 'true') === 'true'	;	//	(): To display corpses or not
+Lecode.S_TBS.defaultStartMP = String(parameters["Default MP"] || 0)	;	//	(): MP battlers will start the battle with
 Lecode.S_TBS.explorationInput = String(parameters["Exploration Input"] || "shift")	;	//	(): Input to trigger exploration.
 Lecode.S_TBS.opacityInput = String(parameters["Opacity Input"] || "control")	;	//	(): Input to change windows' opacity.
 Lecode.S_TBS.minInputOpacity = Number(parameters["Min Input Opacity"] || 0)	;	//	(): Minimum opacity of windows.
@@ -748,6 +758,7 @@ Lecode.S_TBS.aiProcessDelay = Number(parameters["Ai Process Delay"] || 5);
 // Divider: -- Actions Restrictions --
 Lecode.S_TBS.oneTimeMove = String(parameters["One Time Move"] || 'false') === 'true'	;	//	(): Enable the one time move feature. (See doc)
 Lecode.S_TBS.oneTimeOffense = String(parameters["One Time Offense"] || 'true') === 'true'	;	//	(): Enable the one time offense feature. (See doc)
+Lecode.S_TBS.oneTimeActionOrObject = String(parameters["One Time Action Or Object"] || 'true') === 'true'	;	//	(): Enable the one time offense feature. (See doc)
 Lecode.S_TBS.autoPass = String(parameters["Auto Pass"] || 'true') === 'true'	;	//	(): Enable the auto pass feature. (See doc)
 // Divider: -- Battle End --
 Lecode.S_TBS.escapeSound = String(parameters["Escape Sound"] || "Buzzer2")	;	//	(): Sound when the party try to escape.
@@ -3497,6 +3508,8 @@ BattleManagerTBS.executeAction = function () {
     var fastSequence = action.isAttack() ? entity.getWeaponFastSequence() : entity.getObjectFastSequence(item);
     entity.lookAt(this._activeCell);
     entity._actionPerformed = true;
+    if (action.isAttack()) entity._attackPerformed = true;
+    if (action.isItem()) entity._objectPerformed = true;
     entity.battler()._itemOnUse = item;
     this.activeBattler().useItem(item);
     action.applyGlobal();
@@ -3517,6 +3530,8 @@ BattleManagerTBS.onRequestedActionStart = function (entity) {
     this.onForcedActionStart(entity);
     entity._actionPerformed = false;
     entity._movePerformed = false;
+    entity._objectPerformed = false;
+    entity._attackPerformed = false;
 };
 
 BattleManagerTBS.onPrimarySequenceEnd = function (seqMng) {
@@ -3733,6 +3748,8 @@ BattleManagerTBS.onRequestedActionEnd = function (entity) {
     this.onForcedActionEnd(entity);
     entity._actionPerformed = false;
     entity._movePerformed = false;
+    entity._attackPerformed = false;
+    entity._objectPerformed = false;
 };
 
 BattleManagerTBS.requestCommandPass = function () {
@@ -8620,6 +8637,8 @@ TBSEntity.prototype.initialize = function (battler, layer) {
     this._moveReducePoints = false;
     this._movePerformed = false;
     this._actionPerformed = false;
+    this._attackPerformed = false;
+    this._objectPerformed = false;
     this._dead = false;
     this._flag = null;
     this._isMouseOver = false;
@@ -8825,6 +8844,7 @@ TBSEntity.prototype.checkDeath = function () {
 TBSEntity.prototype.onBattleStart = function () {
     this._battler.onBattleStart();
     this.setMovePoints();
+    this.setstartMP();
 };
 
 TBSEntity.prototype.onTurnStart = function () {
@@ -8851,6 +8871,8 @@ TBSEntity.prototype.onTurnEnd = function () {
     this._turnPlayed = true;
     this._movePerformed = false;
     this._actionPerformed = false;
+    this._objectPerformed = false;
+    this._attackPerformed = false;
 };
 
 TBSEntity.prototype.onDeath = function () {
@@ -9346,6 +9368,15 @@ TBSEntity.prototype.followTrajectory = function (trajectory, cell) {
     this._sprite.setTrajectory(trajectory, cell);
 };
 
+TBSEntity.prototype.setstartMP = function () {
+    if (Lecode.S_TBS.defaultStartMP != "") {
+      var a = this._battler;
+      var mp = this._battler.mp; // Fallback in case the eval doesn't set the mp variable
+      eval(Lecode.S_TBS.defaultStartMP);
+      this._battler._mp = Math.round(mp);
+    }
+};
+
 TBSEntity.prototype.setMovePoints = function () {
     this._movePoints = this.battler().getLeTBSTagNumberValue("movePoints", Lecode.S_TBS.defaultMovePoints);
     if (this._movePoints < 0)
@@ -9373,7 +9404,7 @@ TBSEntity.prototype.canAttackCommand = function () {
 };
 
 TBSEntity.prototype.canSkillCommand = function () {
-    if (!this.canObjCommand()) return false;
+    if (this.oneTimeOffense() && this._actionPerformed) return false;
     return true;
 };
 
@@ -9384,6 +9415,8 @@ TBSEntity.prototype.canItemCommand = function () {
 
 TBSEntity.prototype.canObjCommand = function () {
     if (this.oneTimeOffense() && this._actionPerformed) return false;
+    if (this.oneTimeActionOrObject() && (
+      this._objectPerformed || this._attackPerformed)) return false;
     return true;
 };
 
@@ -9513,6 +9546,10 @@ TBSEntity.prototype.oneTimeMove = function () {
 TBSEntity.prototype.oneTimeOffense = function () {
     return !!this.battler().hasLeTBSTag("oneTimeOffense") || Lecode.S_TBS.oneTimeOffense;
 };
+
+TBSEntity.prototype.oneTimeActionOrObject = function () {
+    return !!this.battler().hasLeTBSTag("oneTimeActionOrObject") || Lecode.S_TBS.oneTimeActionOrObject;
+}
 
 TBSEntity.prototype.getCollapseAnimation = function () {
     return this.battler().getLeTBSTagNumberValue("collapseAnim", Lecode.S_TBS.collapseAnimation);
