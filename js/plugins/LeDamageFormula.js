@@ -89,6 +89,13 @@ var parameters = PluginManager.parameters('LeDamageFormula');
     return weapon.isMagical;
   }
 
+  var getDmg = function(base, atk, def) {
+    //var rawDmg = (atk * 4 - def * 2) * base * 0.01;
+    var rawDmg = base + (atk * 4 * base * 0.01);
+    var reduction = def / (def + rawDmg);
+    return Math.floor(rawDmg - reduction * rawDmg);
+  }
+
 
   /*-------------------------------------------------------------------------
   * Game_Action
@@ -98,20 +105,24 @@ var parameters = PluginManager.parameters('LeDamageFormula');
       var a = this.subject();
       var b = target;
 
+      this.getDmg = function(base, atk, def) {
+        //var rawDmg = (atk * 4 - def * 2) * base * 0.01;
+        var rawDmg = base + (atk * 4 * base * 0.01);
+        var reduction = def / (def + rawDmg);
+        return Math.floor(rawDmg - reduction * rawDmg);
+      };
+
       this.phyDmg = function (base) {
-          //var rawDmg = (a.atk * 4 - b.def * 2) * base * 0.01;
-          var rawDmg = base + (a.atk * 4 * base * 0.01);
-          var reduction = b.def / (b.def + rawDmg);
-          return Math.floor(rawDmg - reduction * rawDmg);
+        return this.getDmg(base, a.atk, b.def);
       };
 
       this.magDmg = function (base) {
-          //var rawDmg = (a.mat * 4 - b.mdf * 2) * base * 0.01;
-
-          var rawDmg = base + (a.mat * 4 * base * 0.01);
-          var reduction = b.mdf / (b.mdf + rawDmg);
-          return Math.floor(rawDmg - reduction * rawDmg);
+        return this.getDmg(base, a.mat, b.mdf);
       };
+
+      this.agiDmg = function (base) {
+        return this.getDmg(base, a.agi, b.def);
+      }
 
       this.weaponDamage = function () {
         var weapon = getWeapon(a);

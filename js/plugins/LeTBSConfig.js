@@ -10,8 +10,18 @@ Lecode.S_TBS.Config.Colors = {
 -------------------------------------------------------------------------*/
 Lecode.S_TBS.Config.Tile_Effects = {
 
+    245: { // Thorns
+        "entering,turn_end": {
+            skill_effects: 262,
+            play_anim: true,
+            aoe: "circle(0)",
+            stop_movement: true,
+            wait: 40
+        }
+    },
+
     50: {
-        "entering,turn_start,turn_end": {
+        "entering,turn_end": {
             skill_effects: 50,
             play_anim: true,
             aoe: "circle(0)",
@@ -155,7 +165,7 @@ Lecode.S_TBS.Config.Marks = {
     },
 
     "sentinel_totem": {
-        body_anim: 0, //189
+        body_anim: 189,
         disappearing_anim: 190,
         size: "circle(2)",
         triggers: {
@@ -354,6 +364,26 @@ Lecode.S_TBS.Config.Summons = {
       }
     },
 
+    "snake": {
+      turn_order: "after_caster",
+      kind: "enemy",
+      id: 14,
+      tied_to_caster: false,
+      visible_in_timeline: true,
+      stats: {
+      }
+    },
+
+    "chicken": {
+      turn_order: "after_caster",
+      kind: "enemy",
+      id: 49,
+      tied_to_caster: true,
+      visible_in_timeline: true,
+      stats: {
+      }
+    },
+
     "ice_block": {
         turn_order: "none",
         kind: "enemy",
@@ -474,6 +504,13 @@ Lecode.S_TBS.Config.Custom_Scopes = {
       data_left: "[cx,cy],[cx-1,cy]",
       data_up: "[cx,cy],[cx,cy-1]",
       data_down: "[cx,cy],[cx,cy+1]"
+    },
+
+    "perpendicular_line_3": {
+      data_right: "[cx,cy-1],[cx,cy],[cx,cy+1]",
+      data_left: "[cx,cy-1],[cx,cy],[cx,cy+1]",
+      data_up: "[cx-1,cy],[cx,cy],[cx+1,cy]",
+      data_down: "[cx-1,cy],[cx,cy],[cx+1,cy]"
     }
 
 };

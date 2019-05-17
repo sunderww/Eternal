@@ -35,14 +35,14 @@ Lecode.S_TBS.Summoning = {};
  * This plugin adds various features to summon and control entities in battle.
  * Summons are defined inside the configuration file and called using
  * sequence commands.
- * 
+ *
  * ============================================================================
  * Setting up Summons
  * ============================================================================
- * 
+ *
  * To add a new summon, find the 'Lecode.S_TBS.Config.Summons' module
  * in the configuration file then add the following data:
- * 
+ *
  * "ID": {
  *      turn_order: "after_caster" or "remake",
  *      visible_in_timeline: true or false,
@@ -56,14 +56,14 @@ Lecode.S_TBS.Summoning = {};
  *          ...
  *      }
  *  }
- * 
- * If 'turn_order' is "remake", the turn order will be calculated once again, 
- * to take into account the summoned entity's agility. Otherwise, the entity will be 
+ *
+ * If 'turn_order' is "remake", the turn order will be calculated once again,
+ * to take into account the summoned entity's agility. Otherwise, the entity will be
  * summoned in the timeline just after the caster's turn.
  * If the summoned entity is tied to the caster, he'll die whenever the caster dies.
- * 
- * The summoned entity stats can be based on the caster's. Inside the stats option, 
- * you can setup which stat is based on the caster's same stat. The 'default' option 
+ *
+ * The summoned entity stats can be based on the caster's. Inside the stats option,
+ * you can setup which stat is based on the caster's same stat. The 'default' option
  * is used for all non-specified stats.
  * For instance:
  * stats: {
@@ -71,15 +71,15 @@ Lecode.S_TBS.Summoning = {};
  *      mhp: "200%",
  *      mat: "+20%"
  * }
- * Means that all stats except MHP and MAT will be equal to 80% of the caster same stats. 
- * The MHP however will be equal to 200% of the caster's MHP. The + sign in the last line 
- * specifies that the caster will keep his base stat, but will get an extra value from the 
+ * Means that all stats except MHP and MAT will be equal to 80% of the caster same stats.
+ * The MHP however will be equal to 200% of the caster's MHP. The + sign in the last line
+ * specifies that the caster will keep his base stat, but will get an extra value from the
  * caster. Here, 20% of the caster's MAT is added to the summoned entity's base MAT.
- * 
+ *
  * ============================================================================
  * Call A Summon
  * ============================================================================
- * 
+ *
  * To call a summon, use the sequence command 'summon: ID, cells'
  */
 //#=============================================================================
@@ -345,6 +345,10 @@ TBSEntity.prototype.getCasterStats = function (caster, statesData) {
     this.battler().setSummonParamPlus(plus);
     this.battler().refresh();
     this.battler().recoverAll();
+
+    // ADD BY SUNDERW
+    // Summons must not start their turn with full mp
+    this.battler().setMp(0);
 };
 
 Lecode.S_TBS.Summoning.oldTBSEntity_onDeath = TBSEntity.prototype.onDeath;
