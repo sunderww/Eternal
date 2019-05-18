@@ -41,5 +41,6 @@ null,
 {"id":39,"expanded":false,"name":"Map 3 (Sable 22*20)","order":40,"parentId":37,"scrollX":685.1999999999999,"scrollY":469.2},
 {"id":40,"expanded":false,"name":"Map 1 (Forêt)","order":38,"parentId":37,"scrollX":694.8,"scrollY":469.2},
 {"id":41,"expanded":true,"name":"Arène","order":41,"parentId":6,"scrollX":694.8,"scrollY":469.2},
-{"id":42,"expanded":false,"name":"Map Droite","order":42,"parentId":41,"scrollX":694.8,"scrollY":469.2}
+{"id":42,"expanded":false,"name":"Map Droite","order":42,"parentId":41,"scrollX":694.8,"scrollY":469.2},
+{"id":43,"expanded":false,"name":"Map Gauche","order":43,"parentId":41,"scrollX":694.8,"scrollY":469.2}
 ]

@@ -20,6 +20,16 @@ Lecode.S_TBS.Config.Tile_Effects = {
         }
     },
 
+    241: { // Burning Tile
+        "entering,turn_end": {
+            skill_effects: 263,
+            play_anim: true,
+            aoe: "circle(0)",
+            stop_movement: true,
+            wait: 40
+        }
+    },
+
     50: {
         "entering,turn_end": {
             skill_effects: 50,
