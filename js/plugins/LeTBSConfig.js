@@ -433,8 +433,18 @@ Lecode.S_TBS.Config.Summons = {
         tied_to_caster: true,
         stats: {
             default: "90%",
-            mhp: "60%",
-            mmp: "+10%"
+            mhp: "30%"
+        }
+    },
+
+    "demon": {
+        turn_order: "after_caster",
+        kind: "actor",
+        id: 15,
+        tied_to_caster: true,
+        stats: {
+            default: "80%",
+            mhp: "45%"
         }
     },
 
