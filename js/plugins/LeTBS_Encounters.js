@@ -23,7 +23,7 @@ Lecode.S_TBS.Encounters = {};
  * @plugindesc Teleports the party to specified maps when an encounter occurs.
  * @author Lecode
  * @version 1.0
- * 
+ *
  * @help
  * ============================================================================
  * Introduction
@@ -31,21 +31,21 @@ Lecode.S_TBS.Encounters = {};
  *
  * This plugin teleports the party to specified maps when an encounter occurs.
  * When the battle ends, the party is teleported back to the previous map.
- * 
+ *
  * ============================================================================
  * Set Up Battle Maps
  * ============================================================================
  *
  * Given a map with possible encounters, the list of maps to be teleported to
  * should be defined inside this map's notebox, using this tag:
- * 
+ *
  * <LeTBS Encounter Maps>
  * default: [Map ID], [Map ID], ...
  * area [X]: [Map ID], [Map ID], ...
  * area [Y]: [Map ID], [Map ID], ...
  * area [...]: [Map ID], [Map ID], ...
  * </LeTBS Encounter Maps>
- * 
+ *
  * 'area' refers to the terrain tag on which the encounter occurs.
  * A random map will be selected to teleport the party.
  * If the encounter doesn't occur on a terrain tag, the 'default' data
@@ -66,6 +66,7 @@ var parameters = PluginManager.parameters('LeTBS_Encounters');
 -------------------------------------------------------------------------*/
 Lecode.S_TBS.Encounters.oldBattleManagerTBS_stopBattle = BattleManagerTBS.stopBattle;
 BattleManagerTBS.stopBattle = function () {
+  console.log("Stop battle called");
     Lecode.S_TBS.Encounters.oldBattleManagerTBS_stopBattle.call(this);
     if (Lecode.S_TBS.Encounters.requested) {
         var pos = Lecode.S_TBS.Encounters.oldPos;
@@ -113,6 +114,7 @@ Scene_Map.prototype.getLeTBSEncounterMap = function () {
 
 Lecode.S_TBS.Encounters.oldSceneMap_onMapLoaded = Scene_Map.prototype.onMapLoaded;
 Scene_Map.prototype.onMapLoaded = function () {
+  console.log("onMapLoaded called");
     Lecode.S_TBS.Encounters.oldSceneMap_onMapLoaded.call(this);
     this.makeLeTBSEncounterData();
     if (Lecode.S_TBS.Encounters.requested) {
