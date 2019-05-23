@@ -444,7 +444,20 @@ Lecode.S_TBS.Config.Summons = {
         tied_to_caster: true,
         stats: {
             default: "80%",
-            mhp: "45%"
+            mhp: "45%",
+            mmp: "100%",
+        }
+    },
+
+    "dog": {
+        turn_order: "after_caster",
+        kind: "actor",
+        id: 16,
+        tied_to_caster: true,
+        stats: {
+            default: "65%",
+            mhp: "35%",
+            mmp: "80%",
         }
     },
 
@@ -531,6 +544,13 @@ Lecode.S_TBS.Config.Custom_Scopes = {
       data_left: "[cx,cy-1],[cx,cy],[cx,cy+1]",
       data_up: "[cx-1,cy],[cx,cy],[cx+1,cy]",
       data_down: "[cx-1,cy],[cx,cy],[cx+1,cy]"
+    },
+
+    "perpendicular_line_5": {
+      data_right: "[cx,cy-2],[cx,cy-1],[cx,cy],[cx,cy+1],[cx,cy+2]",
+      data_left: "[cx,cy-2],[cx,cy-1],[cx,cy],[cx,cy+1],[cx,cy]+2",
+      data_up: "[cx-2,cy],[cx-1,cy],[cx,cy],[cx+1,cy],[cx+2,cy]",
+      data_down: "[cx-2,cy],[cx-1,cy],[cx,cy],[cx+1,cy],[cx+2,cy]"
     }
 
 };

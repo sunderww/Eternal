@@ -51,5 +51,6 @@ var $plugins =
 {"name":"Rhyme_MapSmoothScrolling","status":true,"description":"this plugin permit to smooth scroll in map","parameters":{"SpeedDivider":"8"}},
 {"name":"-------------------------","status":true,"description":"","parameters":{}},
 {"name":"LeTBS_YanflyPatch","status":true,"description":"Fixes compatibility issues with Yanfly's plugins","parameters":{}},
-{"name":"HealOnLevelUp","status":true,"description":"Allows you to heal actors on level up","parameters":{"All HP":"Y","All MP":"Y","All States":"Y"}}
+{"name":"HealOnLevelUp","status":true,"description":"Allows you to heal actors on level up","parameters":{"All HP":"Y","All MP":"Y","All States":"Y"}},
+{"name":"FIX_MaxBattleMembers","status":true,"description":"Change Party Battle Member Size.","parameters":{"maxBattleMembers":"8"}}
 ];
