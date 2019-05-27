@@ -15,7 +15,7 @@
 
 (function() {
 
-  var parameters = PluginManager.parameters('FIX_MaxBattleMembers')
+  var parameters = PluginManager.parameters('FIX_MaxBattleMembers');
 
   var oldMaxBattleMembers = Game_Party.prototype.maxBattleMembers;
   Game_Party.prototype.maxBattleMembers = function() {

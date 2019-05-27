@@ -174,6 +174,20 @@ Lecode.S_TBS.Config.Marks = {
         duration: [3, "turn_end"]
     },
 
+    "water_mark": {
+        body_anim: 265,
+        disappearing_anim: 266,
+        size: "square(1)",
+        triggers: {
+            "turn_end": {
+                stop_movement: false,
+                skill_effects: 203,
+                effects_aoe: "circle(1)"
+            }
+        },
+        duration: [4, "turn_end"]
+    },
+
     "sentinel_totem": {
         body_anim: 189,
         disappearing_anim: 190,

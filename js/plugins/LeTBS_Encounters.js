@@ -114,7 +114,6 @@ Scene_Map.prototype.getLeTBSEncounterMap = function () {
 
 Lecode.S_TBS.Encounters.oldSceneMap_onMapLoaded = Scene_Map.prototype.onMapLoaded;
 Scene_Map.prototype.onMapLoaded = function () {
-  console.log("onMapLoaded called");
     Lecode.S_TBS.Encounters.oldSceneMap_onMapLoaded.call(this);
     this.makeLeTBSEncounterData();
     if (Lecode.S_TBS.Encounters.requested) {
