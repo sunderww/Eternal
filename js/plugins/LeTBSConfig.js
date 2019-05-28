@@ -459,7 +459,7 @@ Lecode.S_TBS.Config.Summons = {
         stats: {
             default: "80%",
             mhp: "45%",
-            mmp: "100%",
+            mmp: "17",
         }
     },
 
@@ -1189,6 +1189,19 @@ Lecode.S_TBS.Config.Sequences = {
         "wait: 5",
         "end_delegated_call:",
         "delegate_call: rush_sup_action, last_targets"
+    ],
+
+    "exploitation": [
+      "save_entities: target, cursor_battler",
+      "script:  var b=this._savedEntities.target[0]._battler; var els = []; \
+                for (var i = 1 ; i < $dataSystem.elements.length ; i++) { \
+                  els.push(b.traitsSum(Game_BattlerBase.TRAIT_ELEMENT_RATE, i)); \
+                } \
+                var idx = els.indexOf(Math.max(...els)); \
+                console.log(els); \
+                console.log('idx is '+idx); \
+                this.commandUseSkill(['user', String(227+idx)]);",
+      "call: post-skill"
     ]
 
 

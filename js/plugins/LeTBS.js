@@ -7031,33 +7031,39 @@ TBSSequenceManager.prototype.runCommand = function (command) {
 
         if (this.areConditionsOkay()) {
             var main = String(RegExp.$1).trim();
-            var param = LeUtilities.stringSplit(String(RegExp.$2).trim(), ",");
 
-            //- Making parameters
-            for (var i = 0; i < param.length; i++) {
-                var line = param[i].trim();
-                if (line.match(/\[(.+)\]/i)) {
-                    var str = RegExp.$1;
-                    if (str.match(/(.+)\.tag\.(.+)/i)) {
-                        var obj;
-                        switch (RegExp.$1) {
-                            case "obj": obj = this.getObj(); break;
-                            default: break;
-                        }
-                        if (obj)
-                            line = obj._TagsLetbs[RegExp.$2];
-                    }
-                }
-                param[i] = line;
-            }
+            /* Special case for script because stringSplit would cause errors */
+            if (main == "script") {
+              var func = this.commandScript.bind(this, [String(RegExp.$2).trim()]);
+            } else {
+              var param = LeUtilities.stringSplit(String(RegExp.$2).trim(), ",");
 
-            var functionName = LeUtilities.shrinkTextWithUnderscores(main);
-            var func = function () { };
-            try {
-                func = eval("this.command" + functionName + ".bind(this,param)");
-            } catch (e) {
-                console.log("[LeTBS]Can't find command \"", functionName);
-                console.log(e);
+              //- Making parameters
+              for (var i = 0; i < param.length; i++) {
+                  var line = param[i].trim();
+                  if (line.match(/\[(.+)\]/i)) {
+                      var str = RegExp.$1;
+                      if (str.match(/(.+)\.tag\.(.+)/i)) {
+                          var obj;
+                          switch (RegExp.$1) {
+                              case "obj": obj = this.getObj(); break;
+                              default: break;
+                          }
+                          if (obj)
+                              line = obj._TagsLetbs[RegExp.$2];
+                      }
+                  }
+                  param[i] = line;
+              }
+
+              var functionName = LeUtilities.shrinkTextWithUnderscores(main);
+              var func = function () { };
+              try {
+                  func = eval("this.command" + functionName + ".bind(this,param)");
+              } catch (e) {
+                  console.log("[LeTBS]Can't find command \"", functionName);
+                  console.log(e);
+              }
             }
             var result = func();
             var requireWait = result.requestWait;
@@ -7805,6 +7811,7 @@ TBSSequenceManager.prototype.commandUseSkill = function (param) {
 TBSSequenceManager.prototype.commandScript = function (param) {
     var code = param[0];
     var user = this.getUser();
+    console.log(code);
     eval(code);
 
     return {};
