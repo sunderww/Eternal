@@ -1,11 +1,3538 @@
 {
-"autoplayBgm":false,"autoplayBgs":false,"battleback1Name":"","battleback2Name":"","bgm":{"name":"","pan":0,"pitch":100,"volume":90},"bgs":{"name":"","pan":0,"pitch":100,"volume":90},"disableDashing":false,"displayName":"Armory","encounterList":[],"encounterStep":30,"height":10,"note":"","parallaxLoopX":false,"parallaxLoopY":false,"parallaxName":"","parallaxShow":true,"parallaxSx":0,"parallaxSy":0,"scrollType":0,"specifyBattleback":false,"tilesetId":3,"width":18,
-"data":[5940,5964,5974,1623,5976,5964,5964,5964,5964,5964,5964,5964,5964,5964,5964,5964,5964,5944,5960,6322,6326,1623,6323,6322,6322,6322,6322,6322,6322,6322,6322,6322,6322,6322,6322,5952,5960,6328,6332,1623,6329,6328,6328,6328,6328,6328,6328,6328,6328,6328,6328,6328,6328,5952,5960,4132,4132,4132,4132,4132,4132,4132,4132,4132,4132,4132,4132,4132,4132,4132,4148,5952,5960,4120,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4136,5952,5960,4128,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4136,5952,5960,4113,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4136,5952,5960,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4136,5952,5960,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4112,4136,5952,5938,5956,5956,5956,5956,5956,5956,5956,5972,4112,5970,5956,5956,5956,5956,5956,5956,5937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3578,3963,3953,3965,0,0,0,0,0,3962,0,0,0,0,0,0,0,0,3568,0,0,0,0,0,0,0,0,3952,0,0,3579,3569,3569,3569,3569,3569,3575,3963,3953,3965,0,0,0,0,0,3952,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3963,3953,3953,3947,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3952,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3964,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,419,408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192,194,0,387,0,17,0,132,402,0,17,396,0,0,52,64,0,0,0,0,0,0,0,25,0,140,0,0,25,0,0,0,60,72,0,0,0,344,390,409,410,458,0,0,223,407,0,415,0,0,353,0,0,0,0,0,0,0,0,0,0,404,406,405,0,420,0,0,431,430,431,0,384,0,340,413,412,0,0,0,0,0,0,0,0,0,439,438,439,0,0,0,0,0,0,0,0,0,388,389,0,391,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,403,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-"events":[
-null,
-{"id":1,"name":"EV001","note":"","pages":[{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"tileId":0,"characterName":"People4","direction":2,"pattern":1,"characterIndex":4},"list":[{"code":101,"indent":0,"parameters":["People4",4,0,2]},{"code":401,"indent":0,"parameters":["Hi, what can I do you for ?"]},{"code":102,"indent":0,"parameters":[["Weapons","Equipment","Resources","Nothing"],3,0,2,0]},{"code":402,"indent":0,"parameters":[0,"Weapons"]},{"code":302,"indent":1,"parameters":[1,3,0,0,false]},{"code":605,"indent":1,"parameters":[1,4,0,0]},{"code":605,"indent":1,"parameters":[1,6,0,0]},{"code":605,"indent":1,"parameters":[1,9,0,0]},{"code":605,"indent":1,"parameters":[1,11,0,0]},{"code":605,"indent":1,"parameters":[1,5,0,0]},{"code":605,"indent":1,"parameters":[1,26,0,0]},{"code":605,"indent":1,"parameters":[1,27,0,0]},{"code":605,"indent":1,"parameters":[1,28,0,0]},{"code":605,"indent":1,"parameters":[1,8,0,0]},{"code":605,"indent":1,"parameters":[1,2,0,0]},{"code":605,"indent":1,"parameters":[1,88,0,0]},{"code":605,"indent":1,"parameters":[1,7,0,0]},{"code":605,"indent":1,"parameters":[1,146,0,0]},{"code":605,"indent":1,"parameters":[1,147,0,0]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[1,"Equipment"]},{"code":302,"indent":1,"parameters":[2,1,0,0,false]},{"code":605,"indent":1,"parameters":[2,33,0,0]},{"code":605,"indent":1,"parameters":[2,32,0,0]},{"code":605,"indent":1,"parameters":[2,35,0,0]},{"code":605,"indent":1,"parameters":[2,34,0,0]},{"code":605,"indent":1,"parameters":[2,39,0,0]},{"code":605,"indent":1,"parameters":[2,37,0,0]},{"code":605,"indent":1,"parameters":[2,38,0,0]},{"code":605,"indent":1,"parameters":[2,40,0,0]},{"code":605,"indent":1,"parameters":[2,71,0,0]},{"code":605,"indent":1,"parameters":[2,72,0,0]},{"code":605,"indent":1,"parameters":[2,77,0,0]},{"code":605,"indent":1,"parameters":[2,73,0,0]},{"code":605,"indent":1,"parameters":[2,74,0,0]},{"code":605,"indent":1,"parameters":[2,76,0,0]},{"code":605,"indent":1,"parameters":[2,111,0,0]},{"code":605,"indent":1,"parameters":[2,117,0,0]},{"code":605,"indent":1,"parameters":[2,115,0,0]},{"code":605,"indent":1,"parameters":[2,112,0,0]},{"code":605,"indent":1,"parameters":[2,114,0,0]},{"code":605,"indent":1,"parameters":[2,116,0,0]},{"code":605,"indent":1,"parameters":[2,118,0,0]},{"code":605,"indent":1,"parameters":[2,113,0,0]},{"code":605,"indent":1,"parameters":[2,151,0,0]},{"code":605,"indent":1,"parameters":[2,153,0,0]},{"code":605,"indent":1,"parameters":[2,156,0,0]},{"code":605,"indent":1,"parameters":[2,154,0,0]},{"code":605,"indent":1,"parameters":[2,155,0,0]},{"code":605,"indent":1,"parameters":[2,191,0,0]},{"code":605,"indent":1,"parameters":[2,195,0,0]},{"code":605,"indent":1,"parameters":[2,196,0,0]},{"code":605,"indent":1,"parameters":[2,192,0,0]},{"code":605,"indent":1,"parameters":[2,193,0,0]},{"code":605,"indent":1,"parameters":[2,194,0,0]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[2,"Resources"]},{"code":302,"indent":1,"parameters":[0,37,1,5,false]},{"code":605,"indent":1,"parameters":[0,38,1,15]},{"code":605,"indent":1,"parameters":[0,39,1,15]},{"code":605,"indent":1,"parameters":[0,41,1,20]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[3,"Nothing"]},{"code":0,"indent":1,"parameters":[]},{"code":404,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":1,"stepAnime":false,"through":false,"trigger":0,"walkAnime":true},{"conditions":{"actorId":31,"actorValid":true,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"tileId":0,"characterName":"People1","direction":2,"pattern":1,"characterIndex":6},"list":[{"code":101,"indent":0,"parameters":["People1",6,0,2]},{"code":401,"indent":0,"parameters":["Hi, how can I help you ?"]},{"code":102,"indent":0,"parameters":[["Weapons","Equipment","Resources","Nothing"],3,0,2,0]},{"code":402,"indent":0,"parameters":[0,"Weapons"]},{"code":302,"indent":1,"parameters":[1,3,0,0,false]},{"code":605,"indent":1,"parameters":[1,4,0,0]},{"code":605,"indent":1,"parameters":[1,6,0,0]},{"code":605,"indent":1,"parameters":[1,9,0,0]},{"code":605,"indent":1,"parameters":[1,11,0,0]},{"code":605,"indent":1,"parameters":[1,5,0,0]},{"code":605,"indent":1,"parameters":[1,26,0,0]},{"code":605,"indent":1,"parameters":[1,27,0,0]},{"code":605,"indent":1,"parameters":[1,28,0,0]},{"code":605,"indent":1,"parameters":[1,8,0,0]},{"code":605,"indent":1,"parameters":[1,41,0,0]},{"code":605,"indent":1,"parameters":[1,42,0,0]},{"code":605,"indent":1,"parameters":[1,2,0,0]},{"code":605,"indent":1,"parameters":[1,88,0,0]},{"code":605,"indent":1,"parameters":[1,7,0,0]},{"code":605,"indent":1,"parameters":[1,146,0,0]},{"code":605,"indent":1,"parameters":[1,147,0,0]},{"code":605,"indent":1,"parameters":[1,148,0,0]},{"code":605,"indent":1,"parameters":[1,176,0,0]},{"code":605,"indent":1,"parameters":[1,177,0,0]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[1,"Equipment"]},{"code":302,"indent":1,"parameters":[2,1,0,0,false]},{"code":605,"indent":1,"parameters":[2,33,0,0]},{"code":605,"indent":1,"parameters":[2,32,0,0]},{"code":605,"indent":1,"parameters":[2,35,0,0]},{"code":605,"indent":1,"parameters":[2,34,0,0]},{"code":605,"indent":1,"parameters":[2,39,0,0]},{"code":605,"indent":1,"parameters":[2,37,0,0]},{"code":605,"indent":1,"parameters":[2,38,0,0]},{"code":605,"indent":1,"parameters":[2,40,0,0]},{"code":605,"indent":1,"parameters":[2,36,0,0]},{"code":605,"indent":1,"parameters":[2,71,0,0]},{"code":605,"indent":1,"parameters":[2,72,0,0]},{"code":605,"indent":1,"parameters":[2,77,0,0]},{"code":605,"indent":1,"parameters":[2,73,0,0]},{"code":605,"indent":1,"parameters":[2,74,0,0]},{"code":605,"indent":1,"parameters":[2,76,0,0]},{"code":605,"indent":1,"parameters":[2,78,0,0]},{"code":605,"indent":1,"parameters":[2,111,0,0]},{"code":605,"indent":1,"parameters":[2,117,0,0]},{"code":605,"indent":1,"parameters":[2,115,0,0]},{"code":605,"indent":1,"parameters":[2,112,0,0]},{"code":605,"indent":1,"parameters":[2,114,0,0]},{"code":605,"indent":1,"parameters":[2,116,0,0]},{"code":605,"indent":1,"parameters":[2,118,0,0]},{"code":605,"indent":1,"parameters":[2,113,0,0]},{"code":605,"indent":1,"parameters":[2,151,0,0]},{"code":605,"indent":1,"parameters":[2,153,0,0]},{"code":605,"indent":1,"parameters":[2,156,0,0]},{"code":605,"indent":1,"parameters":[2,154,0,0]},{"code":605,"indent":1,"parameters":[2,155,0,0]},{"code":605,"indent":1,"parameters":[2,152,0,0]},{"code":605,"indent":1,"parameters":[2,191,0,0]},{"code":605,"indent":1,"parameters":[2,195,0,0]},{"code":605,"indent":1,"parameters":[2,196,0,0]},{"code":605,"indent":1,"parameters":[2,192,0,0]},{"code":605,"indent":1,"parameters":[2,193,0,0]},{"code":605,"indent":1,"parameters":[2,194,0,0]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[2,"Resources"]},{"code":302,"indent":1,"parameters":[0,37,1,5,false]},{"code":605,"indent":1,"parameters":[0,38,1,15]},{"code":605,"indent":1,"parameters":[0,39,1,15]},{"code":605,"indent":1,"parameters":[0,41,1,20]},{"code":605,"indent":1,"parameters":[0,40,1,50]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[3,"Nothing"]},{"code":0,"indent":1,"parameters":[]},{"code":404,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":1,"stepAnime":false,"through":false,"trigger":0,"walkAnime":true}],"x":6,"y":4},
-null,
-{"id":3,"name":"EV003","note":"","pages":[{"conditions":{"actorId":31,"actorValid":true,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"tileId":0,"characterName":"People4","direction":4,"pattern":1,"characterIndex":4},"list":[{"code":101,"indent":0,"parameters":["People4",4,0,2]},{"code":401,"indent":0,"parameters":["If you bring me some ingredients, I can"]},{"code":401,"indent":0,"parameters":["forge some very powerful weapons."]},{"code":102,"indent":0,"parameters":[["Aquara sword","Aquara scepter","Nothing"],2,0,2,0]},{"code":402,"indent":0,"parameters":[0,"Aquara sword"]},{"code":101,"indent":1,"parameters":["People4",4,0,2]},{"code":401,"indent":1,"parameters":["I'll need 80\\G for my work and:"]},{"code":401,"indent":1,"parameters":["4* Aquara's fragment"]},{"code":401,"indent":1,"parameters":["10* Iron ore"]},{"code":401,"indent":1,"parameters":["2* Gold ore"]},{"code":122,"indent":1,"parameters":[8,8,0,3,0,40,0]},{"code":111,"indent":1,"parameters":[1,8,0,4,1]},{"code":122,"indent":2,"parameters":[8,8,0,3,0,38,0]},{"code":111,"indent":2,"parameters":[1,8,0,2,1]},{"code":122,"indent":3,"parameters":[8,8,0,3,0,37,0]},{"code":111,"indent":3,"parameters":[1,8,0,10,1]},{"code":111,"indent":4,"parameters":[7,80,0]},{"code":102,"indent":5,"parameters":[["Let's do it !","No, thanks."],1,0,2,0]},{"code":402,"indent":5,"parameters":[0,"Let's do it !"]},{"code":230,"indent":6,"parameters":[60]},{"code":221,"indent":6,"parameters":[]},{"code":250,"indent":6,"parameters":[{"name":"Bell2","volume":90,"pitch":100,"pan":0}]},{"code":230,"indent":6,"parameters":[90]},{"code":250,"indent":6,"parameters":[{"name":"Bell2","volume":90,"pitch":100,"pan":0}]},{"code":230,"indent":6,"parameters":[60]},{"code":222,"indent":6,"parameters":[]},{"code":230,"indent":6,"parameters":[60]},{"code":125,"indent":6,"parameters":[1,0,80]},{"code":126,"indent":6,"parameters":[40,1,0,4]},{"code":126,"indent":6,"parameters":[38,1,0,2]},{"code":126,"indent":6,"parameters":[37,1,0,10]},{"code":127,"indent":6,"parameters":[12,0,0,1,false]},{"code":250,"indent":6,"parameters":[{"name":"Equip2","volume":90,"pitch":100,"pan":0}]},{"code":101,"indent":6,"parameters":["People4",4,0,2]},{"code":401,"indent":6,"parameters":["There, you have a beautifully crafted sword"]},{"code":401,"indent":6,"parameters":["infused with the power of our archipelago."]},{"code":401,"indent":6,"parameters":["I'm sure you'll make good use of it."]},{"code":0,"indent":6,"parameters":[]},{"code":402,"indent":5,"parameters":[1,"No, thanks."]},{"code":0,"indent":6,"parameters":[]},{"code":404,"indent":5,"parameters":[]},{"code":0,"indent":5,"parameters":[]},{"code":412,"indent":4,"parameters":[]},{"code":0,"indent":4,"parameters":[]},{"code":412,"indent":3,"parameters":[]},{"code":0,"indent":3,"parameters":[]},{"code":412,"indent":2,"parameters":[]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[1,"Aquara scepter"]},{"code":101,"indent":1,"parameters":["People4",4,0,2]},{"code":401,"indent":1,"parameters":["I'll need 110\\G for my work and:"]},{"code":401,"indent":1,"parameters":["4* Aquara's fragment"]},{"code":401,"indent":1,"parameters":["1* Amethyst"]},{"code":401,"indent":1,"parameters":["1* Enchanted wood"]},{"code":122,"indent":1,"parameters":[8,8,0,3,0,40,0]},{"code":111,"indent":1,"parameters":[1,8,0,4,1]},{"code":122,"indent":2,"parameters":[8,8,0,3,0,39,0]},{"code":111,"indent":2,"parameters":[1,8,0,1,1]},{"code":122,"indent":3,"parameters":[8,8,0,3,0,41,0]},{"code":111,"indent":3,"parameters":[1,8,0,1,1]},{"code":111,"indent":4,"parameters":[7,110,0]},{"code":102,"indent":5,"parameters":[["Let's do it !","No, thanks."],1,0,2,0]},{"code":402,"indent":5,"parameters":[0,"Let's do it !"]},{"code":221,"indent":6,"parameters":[]},{"code":230,"indent":6,"parameters":[60]},{"code":250,"indent":6,"parameters":[{"name":"Bell2","volume":90,"pitch":100,"pan":0}]},{"code":230,"indent":6,"parameters":[90]},{"code":250,"indent":6,"parameters":[{"name":"Bell2","volume":90,"pitch":100,"pan":0}]},{"code":230,"indent":6,"parameters":[60]},{"code":222,"indent":6,"parameters":[]},{"code":230,"indent":6,"parameters":[60]},{"code":125,"indent":6,"parameters":[1,0,110]},{"code":126,"indent":6,"parameters":[40,1,0,4]},{"code":126,"indent":6,"parameters":[39,1,0,1]},{"code":126,"indent":6,"parameters":[41,1,0,1]},{"code":127,"indent":6,"parameters":[87,0,0,1,false]},{"code":250,"indent":6,"parameters":[{"name":"Equip2","volume":90,"pitch":100,"pan":0}]},{"code":101,"indent":6,"parameters":["People4",4,0,2]},{"code":401,"indent":6,"parameters":["There, you have a beautifully crafted"]},{"code":401,"indent":6,"parameters":["scepter, infused with the power of our "]},{"code":401,"indent":6,"parameters":["archipelago."]},{"code":401,"indent":6,"parameters":["I'm sure you'll make good use of it."]},{"code":0,"indent":6,"parameters":[]},{"code":402,"indent":5,"parameters":[1,"No, thanks."]},{"code":0,"indent":6,"parameters":[]},{"code":404,"indent":5,"parameters":[]},{"code":0,"indent":5,"parameters":[]},{"code":412,"indent":4,"parameters":[]},{"code":0,"indent":4,"parameters":[]},{"code":412,"indent":3,"parameters":[]},{"code":0,"indent":3,"parameters":[]},{"code":412,"indent":2,"parameters":[]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[2,"Nothing"]},{"code":0,"indent":1,"parameters":[]},{"code":404,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":1,"stepAnime":false,"through":false,"trigger":0,"walkAnime":true}],"x":12,"y":8},
-{"id":4,"name":"EV004","note":"","pages":[{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":250,"indent":0,"parameters":[{"name":"Open1","pan":0,"pitch":100,"volume":90}]},{"code":230,"indent":0,"parameters":[20]},{"code":250,"indent":0,"parameters":[{"name":"Run","volume":90,"pitch":100,"pan":0}]},{"code":201,"indent":0,"parameters":[0,10,19,16,0,0]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":1,"walkAnime":true}],"x":9,"y":9}
-]
+  "autoplayBgm": false,
+  "autoplayBgs": false,
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "bgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "bgs": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "disableDashing": false,
+  "displayName": "Armory",
+  "encounterList": [],
+  "encounterStep": 30,
+  "height": 10,
+  "note": "",
+  "parallaxLoopX": false,
+  "parallaxLoopY": false,
+  "parallaxName": "",
+  "parallaxShow": true,
+  "parallaxSx": 0,
+  "parallaxSy": 0,
+  "scrollType": 0,
+  "specifyBattleback": false,
+  "tilesetId": 3,
+  "width": 18,
+  "data": [
+    5940,
+    5964,
+    5974,
+    1623,
+    5976,
+    5964,
+    5964,
+    5964,
+    5964,
+    5964,
+    5964,
+    5964,
+    5964,
+    5964,
+    5964,
+    5964,
+    5964,
+    5944,
+    5960,
+    6322,
+    6326,
+    1623,
+    6323,
+    6322,
+    6322,
+    6322,
+    6322,
+    6322,
+    6322,
+    6322,
+    6322,
+    6322,
+    6322,
+    6322,
+    6322,
+    5952,
+    5960,
+    6328,
+    6332,
+    1623,
+    6329,
+    6328,
+    6328,
+    6328,
+    6328,
+    6328,
+    6328,
+    6328,
+    6328,
+    6328,
+    6328,
+    6328,
+    6328,
+    5952,
+    5960,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4132,
+    4148,
+    5952,
+    5960,
+    4120,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4136,
+    5952,
+    5960,
+    4128,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4136,
+    5952,
+    5960,
+    4113,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4136,
+    5952,
+    5960,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4136,
+    5952,
+    5960,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4112,
+    4136,
+    5952,
+    5938,
+    5956,
+    5956,
+    5956,
+    5956,
+    5956,
+    5956,
+    5956,
+    5972,
+    4112,
+    5970,
+    5956,
+    5956,
+    5956,
+    5956,
+    5956,
+    5956,
+    5937,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3150,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3578,
+    3963,
+    3953,
+    3965,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3962,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3568,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3952,
+    0,
+    0,
+    3579,
+    3569,
+    3569,
+    3569,
+    3569,
+    3569,
+    3575,
+    3963,
+    3953,
+    3965,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3952,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3963,
+    3953,
+    3953,
+    3947,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3952,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3964,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    419,
+    408,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    192,
+    194,
+    0,
+    387,
+    0,
+    17,
+    0,
+    132,
+    402,
+    0,
+    17,
+    396,
+    0,
+    0,
+    52,
+    64,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    25,
+    0,
+    140,
+    0,
+    0,
+    25,
+    0,
+    0,
+    0,
+    60,
+    72,
+    0,
+    0,
+    0,
+    344,
+    390,
+    409,
+    410,
+    458,
+    0,
+    0,
+    223,
+    407,
+    0,
+    415,
+    0,
+    0,
+    353,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    404,
+    406,
+    405,
+    0,
+    420,
+    0,
+    0,
+    431,
+    430,
+    431,
+    0,
+    384,
+    0,
+    340,
+    413,
+    412,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    439,
+    438,
+    439,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    388,
+    389,
+    0,
+    391,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    403,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "events": [
+    null,
+    {
+      "id": 1,
+      "name": "EV001",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "People4",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 4
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "People4",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Hi, what can I do you for ?"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Weapons",
+                  "Equipment",
+                  "Resources",
+                  "Nothing"
+                ],
+                3,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Weapons"
+              ]
+            },
+            {
+              "code": 302,
+              "indent": 1,
+              "parameters": [
+                1,
+                3,
+                0,
+                0,
+                false
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                6,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                9,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                11,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                26,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                27,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                28,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                8,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                88,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                7,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                146,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                147,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "Equipment"
+              ]
+            },
+            {
+              "code": 302,
+              "indent": 1,
+              "parameters": [
+                2,
+                1,
+                0,
+                0,
+                false
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                33,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                32,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                35,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                34,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                39,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                37,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                38,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                40,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                71,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                72,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                77,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                73,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                74,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                76,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                111,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                117,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                115,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                112,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                114,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                116,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                118,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                113,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                151,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                153,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                156,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                154,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                155,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                191,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                195,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                196,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                192,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                193,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                194,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "Resources"
+              ]
+            },
+            {
+              "code": 302,
+              "indent": 1,
+              "parameters": [
+                0,
+                37,
+                1,
+                5,
+                false
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                0,
+                38,
+                1,
+                15
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                0,
+                39,
+                1,
+                15
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                0,
+                41,
+                1,
+                20
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                3,
+                "Nothing"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 31,
+            "actorValid": true,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "People1",
+            "direction": 2,
+            "pattern": 1,
+            "characterIndex": 6
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "People1",
+                6,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Hi, how can I help you ?"
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Weapons",
+                  "Equipment",
+                  "Resources",
+                  "Nothing"
+                ],
+                3,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Weapons"
+              ]
+            },
+            {
+              "code": 302,
+              "indent": 1,
+              "parameters": [
+                1,
+                3,
+                0,
+                0,
+                false
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                4,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                6,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                9,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                11,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                26,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                27,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                28,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                8,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                41,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                42,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                2,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                88,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                7,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                146,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                147,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                148,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                176,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                1,
+                177,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "Equipment"
+              ]
+            },
+            {
+              "code": 302,
+              "indent": 1,
+              "parameters": [
+                2,
+                1,
+                0,
+                0,
+                false
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                33,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                32,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                35,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                34,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                39,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                37,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                38,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                40,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                36,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                71,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                72,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                77,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                73,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                74,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                76,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                78,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                111,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                117,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                115,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                112,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                114,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                116,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                118,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                113,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                151,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                153,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                156,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                154,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                155,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                152,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                191,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                195,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                196,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                192,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                193,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                2,
+                194,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "Resources"
+              ]
+            },
+            {
+              "code": 302,
+              "indent": 1,
+              "parameters": [
+                0,
+                37,
+                1,
+                5,
+                false
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                0,
+                38,
+                1,
+                15
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                0,
+                39,
+                1,
+                15
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                0,
+                41,
+                1,
+                20
+              ]
+            },
+            {
+              "code": 605,
+              "indent": 1,
+              "parameters": [
+                0,
+                40,
+                1,
+                50
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                3,
+                "Nothing"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 6,
+      "y": 4
+    },
+    null,
+    {
+      "id": 3,
+      "name": "EV003",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 31,
+            "actorValid": true,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "tileId": 0,
+            "characterName": "People4",
+            "direction": 4,
+            "pattern": 1,
+            "characterIndex": 4
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "People4",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "If you bring me some ingredients, I can"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "forge some very powerful weapons."
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 0,
+              "parameters": [
+                [
+                  "Aquara sword",
+                  "Aquara scepter",
+                  "Nothing"
+                ],
+                2,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                0,
+                "Aquara sword"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "People4",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "I'll need 80\\G for my work and:"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "4* Aquara's fragment"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "10* Iron ore"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "2* Gold ore"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                8,
+                8,
+                0,
+                3,
+                0,
+                40,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                8,
+                0,
+                4,
+                1
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                8,
+                8,
+                0,
+                3,
+                0,
+                38,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                8,
+                0,
+                2,
+                1
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 3,
+              "parameters": [
+                8,
+                8,
+                0,
+                3,
+                0,
+                37,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                8,
+                0,
+                10,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 4,
+              "parameters": [
+                7,
+                80,
+                0
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 5,
+              "parameters": [
+                [
+                  "Let's do it !",
+                  "No, thanks."
+                ],
+                1,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 5,
+              "parameters": [
+                0,
+                "Let's do it !"
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 6,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 221,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 250,
+              "indent": 6,
+              "parameters": [
+                {
+                  "name": "Bell2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 6,
+              "parameters": [
+                90
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 6,
+              "parameters": [
+                {
+                  "name": "Bell2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 6,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 222,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 230,
+              "indent": 6,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 125,
+              "indent": 6,
+              "parameters": [
+                1,
+                0,
+                80
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 6,
+              "parameters": [
+                40,
+                1,
+                0,
+                4
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 6,
+              "parameters": [
+                38,
+                1,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 6,
+              "parameters": [
+                37,
+                1,
+                0,
+                10
+              ]
+            },
+            {
+              "code": 127,
+              "indent": 6,
+              "parameters": [
+                12,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 6,
+              "parameters": [
+                {
+                  "name": "Equip2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 6,
+              "parameters": [
+                "People4",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "There, you have a beautifully crafted sword"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "infused with the power of our archipelago."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "I'm sure you'll make good use of it."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 5,
+              "parameters": [
+                1,
+                "No, thanks."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                1,
+                "Aquara scepter"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "People4",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "I'll need 110\\G for my work and:"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "4* Aquara's fragment"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "1* Amethyst"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "1* Enchanted wood"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                8,
+                8,
+                0,
+                3,
+                0,
+                40,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 1,
+              "parameters": [
+                1,
+                8,
+                0,
+                4,
+                1
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 2,
+              "parameters": [
+                8,
+                8,
+                0,
+                3,
+                0,
+                39,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 2,
+              "parameters": [
+                1,
+                8,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 3,
+              "parameters": [
+                8,
+                8,
+                0,
+                3,
+                0,
+                41,
+                0
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 3,
+              "parameters": [
+                1,
+                8,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 4,
+              "parameters": [
+                7,
+                110,
+                0
+              ]
+            },
+            {
+              "code": 102,
+              "indent": 5,
+              "parameters": [
+                [
+                  "Let's do it !",
+                  "No, thanks."
+                ],
+                1,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 402,
+              "indent": 5,
+              "parameters": [
+                0,
+                "Let's do it !"
+              ]
+            },
+            {
+              "code": 221,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 230,
+              "indent": 6,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 6,
+              "parameters": [
+                {
+                  "name": "Bell2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 6,
+              "parameters": [
+                90
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 6,
+              "parameters": [
+                {
+                  "name": "Bell2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 6,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 222,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 230,
+              "indent": 6,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 125,
+              "indent": 6,
+              "parameters": [
+                1,
+                0,
+                110
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 6,
+              "parameters": [
+                40,
+                1,
+                0,
+                4
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 6,
+              "parameters": [
+                39,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 6,
+              "parameters": [
+                41,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 127,
+              "indent": 6,
+              "parameters": [
+                87,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 6,
+              "parameters": [
+                {
+                  "name": "Equip2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 6,
+              "parameters": [
+                "People4",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "There, you have a beautifully crafted"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "scepter, infused with the power of our "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "archipelago."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 6,
+              "parameters": [
+                "I'm sure you'll make good use of it."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 5,
+              "parameters": [
+                1,
+                "No, thanks."
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 6,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 5,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 4,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 3,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                2,
+                "Nothing"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 404,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 12,
+      "y": 8
+    },
+    {
+      "id": 4,
+      "name": "EV004",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Open1",
+                  "pan": 0,
+                  "pitch": 100,
+                  "volume": 90
+                }
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                20
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Run",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                10,
+                19,
+                16,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 1,
+          "walkAnime": true
+        }
+      ],
+      "x": 9,
+      "y": 9
+    }
+  ]
 }

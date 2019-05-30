@@ -1,9 +1,2667 @@
 {
-"autoplayBgm":true,"autoplayBgs":false,"battleback1Name":"","battleback2Name":"","bgm":{"name":"902 Forest","pan":0,"pitch":100,"volume":90},"bgs":{"name":"","pan":0,"pitch":100,"volume":90},"disableDashing":false,"displayName":"","encounterList":[],"encounterStep":30,"height":13,"note":"","parallaxLoopX":false,"parallaxLoopY":false,"parallaxName":"","parallaxShow":true,"parallaxSx":0,"parallaxSy":0,"scrollType":0,"specifyBattleback":false,"tilesetId":5,"width":17,
-"data":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-"events":[
-null,
-{"id":1,"name":"EV001","note":"","pages":[{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":3,"switch1Valid":true,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":111,"indent":0,"parameters":[0,1,1]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["For thousands of years, the people of Obara never"]},{"code":401,"indent":1,"parameters":["found peace. Rulers trying to conquer the world, hard"]},{"code":401,"indent":1,"parameters":["climatic conditions, loads of tyrants or prowling"]},{"code":401,"indent":1,"parameters":["monsters, security had become a luxury."]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["Four hundred years before the beginning of our story,"]},{"code":401,"indent":1,"parameters":["the height most important kingdoms decided to conclude"]},{"code":401,"indent":1,"parameters":["a deal to overcome their common ennemies: monsters."]},{"code":401,"indent":1,"parameters":[""]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["That allowed Obarans to live the two most prosperous"]},{"code":401,"indent":1,"parameters":["centuries of history."]},{"code":401,"indent":1,"parameters":[""]},{"code":401,"indent":1,"parameters":[""]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["Two hundred years ago, the Faris, fleeing their own"]},{"code":401,"indent":1,"parameters":["planet's extinction, opened portals that allowed them"]},{"code":401,"indent":1,"parameters":["to travel into Obara's world."]},{"code":401,"indent":1,"parameters":[""]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["However, the people of Obara didn't know how to react"]},{"code":401,"indent":1,"parameters":["to such a massive arrival of strangers."]},{"code":401,"indent":1,"parameters":[""]},{"code":401,"indent":1,"parameters":[""]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["Some tried to help, but didn't have enough resources ;"]},{"code":401,"indent":1,"parameters":["some just chased them away, at the risk of them dying"]},{"code":401,"indent":1,"parameters":["on the roads ; others just plain slaughtered them"]},{"code":401,"indent":1,"parameters":["by fear, or sacrificed them by superstition."]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["After months of suffering, the few thousands of Fari"]},{"code":401,"indent":1,"parameters":["survivors among the tens of millions of their kind"]},{"code":401,"indent":1,"parameters":["found refuge in the uninhabited island of Tenera."]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["They stayed there for fifteen years. Years they spent"]},{"code":401,"indent":1,"parameters":["practicing their magic, making the most of their "]},{"code":401,"indent":1,"parameters":["island's resources."]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["By the time they left it, they had found a way to"]},{"code":401,"indent":1,"parameters":["become immortal to Obarans' powers."]},{"code":401,"indent":1,"parameters":["Their revenge begun by executing the rulers that didn't"]},{"code":401,"indent":1,"parameters":["help them."]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["After a time, they started to grow bored of managing"]},{"code":401,"indent":1,"parameters":["these ungrateful people, and their kind reign slowly "]},{"code":401,"indent":1,"parameters":["turned into domination."]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["\\.\\.And thus,\\.\\. the era of the \"Eternals\" begun.\\|"]},{"code":101,"indent":1,"parameters":["",0,2,2]},{"code":401,"indent":1,"parameters":["Half a century later, arenas were built all around the"]},{"code":401,"indent":1,"parameters":["world. \\|"]},{"code":401,"indent":1,"parameters":["The Eternals were taking pleasure watching their"]},{"code":401,"indent":1,"parameters":["Obarans slaves murder each others.\\|"]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":101,"indent":0,"parameters":["",0,0,2]},{"code":401,"indent":0,"parameters":["You are Sam of Syde, the descendant of the King that"]},{"code":401,"indent":0,"parameters":["helped the Faris reach Tenera."]},{"code":401,"indent":0,"parameters":["Exiled from your own kingdom since your childhood, you"]},{"code":401,"indent":0,"parameters":["have started a rebellion against the Eternals."]},{"code":122,"indent":0,"parameters":[10,10,0,0,0]},{"code":201,"indent":0,"parameters":[0,4,10,29,8,0]},{"code":211,"indent":0,"parameters":[1]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":3,"walkAnime":true},{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":3,"switch1Valid":true,"switch2Id":2,"switch2Valid":true,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":108,"indent":0,"parameters":["The code here should tp you where needed to test, "]},{"code":408,"indent":0,"parameters":["with the skills / items necessary."]},{"code":126,"indent":0,"parameters":[9,0,0,1]},{"code":128,"indent":0,"parameters":[291,0,0,1,false]},{"code":127,"indent":0,"parameters":[2,0,0,1,false]},{"code":128,"indent":0,"parameters":[31,0,0,1,false]},{"code":128,"indent":0,"parameters":[71,0,0,1,false]},{"code":128,"indent":0,"parameters":[151,0,0,1,false]},{"code":128,"indent":0,"parameters":[231,0,0,1,false]},{"code":319,"indent":0,"parameters":[30,5,231]},{"code":319,"indent":0,"parameters":[30,3,31]},{"code":319,"indent":0,"parameters":[30,4,71]},{"code":319,"indent":0,"parameters":[30,1,2]},{"code":319,"indent":0,"parameters":[30,8,151]},{"code":121,"indent":0,"parameters":[4,4,0]},{"code":121,"indent":0,"parameters":[5,5,0]},{"code":121,"indent":0,"parameters":[6,6,0]},{"code":121,"indent":0,"parameters":[7,7,0]},{"code":121,"indent":0,"parameters":[8,8,0]},{"code":121,"indent":0,"parameters":[18,18,0]},{"code":121,"indent":0,"parameters":[17,17,0]},{"code":126,"indent":0,"parameters":[3,0,0,99]},{"code":126,"indent":0,"parameters":[18,0,0,99]},{"code":126,"indent":0,"parameters":[19,0,0,99]},{"code":126,"indent":0,"parameters":[20,0,0,99]},{"code":126,"indent":0,"parameters":[21,0,0,99]},{"code":126,"indent":0,"parameters":[82,0,0,99]},{"code":126,"indent":0,"parameters":[8,0,0,1]},{"code":316,"indent":0,"parameters":[0,0,0,0,1,false]},{"code":129,"indent":0,"parameters":[33,0,true]},{"code":316,"indent":0,"parameters":[0,0,0,0,6,false]},{"code":125,"indent":0,"parameters":[0,0,800]},{"code":126,"indent":0,"parameters":[39,0,0,5]},{"code":126,"indent":0,"parameters":[37,0,0,20]},{"code":126,"indent":0,"parameters":[38,0,0,10]},{"code":126,"indent":0,"parameters":[40,0,0,20]},{"code":126,"indent":0,"parameters":[41,0,0,5]},{"code":129,"indent":0,"parameters":[31,0,true]},{"code":316,"indent":0,"parameters":[0,0,0,0,4,false]},{"code":126,"indent":0,"parameters":[10,0,0,1]},{"code":129,"indent":0,"parameters":[34,0,true]},{"code":316,"indent":0,"parameters":[0,0,0,0,2,false]},{"code":129,"indent":0,"parameters":[35,0,true]},{"code":129,"indent":0,"parameters":[32,0,true]},{"code":316,"indent":0,"parameters":[0,0,0,0,8,false]},{"code":121,"indent":0,"parameters":[19,19,0]},{"code":121,"indent":0,"parameters":[20,20,0]},{"code":121,"indent":0,"parameters":[21,21,0]},{"code":319,"indent":0,"parameters":[30,5,291]},{"code":202,"indent":0,"parameters":[1,0,6,14,3]},{"code":201,"indent":0,"parameters":[0,8,8,12,0,0]},{"code":211,"indent":0,"parameters":[1]},{"code":314,"indent":0,"parameters":[0,0]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":3,"walkAnime":true}],"x":1,"y":0},
-{"id":2,"name":"SET DEBUG","note":"","pages":[{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":108,"indent":0,"parameters":["Set the DEBUG switch to ON in order to go directly where"]},{"code":408,"indent":0,"parameters":["you need to test"]},{"code":408,"indent":0,"parameters":["Set it to OFF in the release version, or to test the full"]},{"code":408,"indent":0,"parameters":["game !"]},{"code":121,"indent":0,"parameters":[2,2,0]},{"code":121,"indent":0,"parameters":[1,1,0]},{"code":123,"indent":0,"parameters":["A",0]},{"code":121,"indent":0,"parameters":[3,3,0]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":3,"walkAnime":true},{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":true,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":0,"walkAnime":true}],"x":0,"y":0}
-]
+  "autoplayBgm": true,
+  "autoplayBgs": false,
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "bgm": {
+    "name": "902 Forest",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "bgs": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "disableDashing": false,
+  "displayName": "",
+  "encounterList": [],
+  "encounterStep": 30,
+  "height": 13,
+  "note": "",
+  "parallaxLoopX": false,
+  "parallaxLoopY": false,
+  "parallaxName": "",
+  "parallaxShow": true,
+  "parallaxSx": 0,
+  "parallaxSy": 0,
+  "scrollType": 0,
+  "specifyBattleback": false,
+  "tilesetId": 5,
+  "width": 17,
+  "data": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "events": [
+    null,
+    {
+      "id": 1,
+      "name": "EV001",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 3,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "For thousands of years, the people of Obara never"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "found peace. Rulers trying to conquer the world, hard"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "climatic conditions, loads of tyrants or prowling"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "monsters, security had become a luxury."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Four hundred years before the beginning of our story,"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "the height most important kingdoms decided to conclude"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "a deal to overcome their common ennemies: monsters."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "That allowed Obarans to live the two most prosperous"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "centuries of history."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Two hundred years ago, the Faris, fleeing their own"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "planet's extinction, opened portals that allowed them"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "to travel into Obara's world."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "However, the people of Obara didn't know how to react"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "to such a massive arrival of strangers."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Some tried to help, but didn't have enough resources ;"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "some just chased them away, at the risk of them dying"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "on the roads ; others just plain slaughtered them"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "by fear, or sacrificed them by superstition."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "After months of suffering, the few thousands of Fari"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "survivors among the tens of millions of their kind"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "found refuge in the uninhabited island of Tenera."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "They stayed there for fifteen years. Years they spent"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "practicing their magic, making the most of their "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "island's resources."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "By the time they left it, they had found a way to"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "become immortal to Obarans' powers."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Their revenge begun by executing the rulers that didn't"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "help them."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "After a time, they started to grow bored of managing"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "these ungrateful people, and their kind reign slowly "
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "turned into domination."
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "\\.\\.And thus,\\.\\. the era of the \"Eternals\" begun.\\|"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Half a century later, arenas were built all around the"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "world. \\|"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "The Eternals were taking pleasure watching their"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Obarans slaves murder each others.\\|"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "You are Sam of Syde, the descendant of the King that"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "helped the Faris reach Tenera."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Exiled from your own kingdom since your childhood, you"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "have started a rebellion against the Eternals."
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                10,
+                10,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                4,
+                10,
+                29,
+                8,
+                0
+              ]
+            },
+            {
+              "code": 211,
+              "indent": 0,
+              "parameters": [
+                1
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 3,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 3,
+            "switch1Valid": true,
+            "switch2Id": 2,
+            "switch2Valid": true,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "The code here should tp you where needed to test, "
+              ]
+            },
+            {
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "with the skills / items necessary."
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                9,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 128,
+              "indent": 0,
+              "parameters": [
+                291,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 127,
+              "indent": 0,
+              "parameters": [
+                2,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 128,
+              "indent": 0,
+              "parameters": [
+                31,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 128,
+              "indent": 0,
+              "parameters": [
+                71,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 128,
+              "indent": 0,
+              "parameters": [
+                151,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 128,
+              "indent": 0,
+              "parameters": [
+                231,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 319,
+              "indent": 0,
+              "parameters": [
+                30,
+                5,
+                231
+              ]
+            },
+            {
+              "code": 319,
+              "indent": 0,
+              "parameters": [
+                30,
+                3,
+                31
+              ]
+            },
+            {
+              "code": 319,
+              "indent": 0,
+              "parameters": [
+                30,
+                4,
+                71
+              ]
+            },
+            {
+              "code": 319,
+              "indent": 0,
+              "parameters": [
+                30,
+                1,
+                2
+              ]
+            },
+            {
+              "code": 319,
+              "indent": 0,
+              "parameters": [
+                30,
+                8,
+                151
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                4,
+                4,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                5,
+                5,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                6,
+                6,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                7,
+                7,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                8,
+                8,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                18,
+                18,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                17,
+                17,
+                0
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                3,
+                0,
+                0,
+                99
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                18,
+                0,
+                0,
+                99
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                19,
+                0,
+                0,
+                99
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                20,
+                0,
+                0,
+                99
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                21,
+                0,
+                0,
+                99
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                82,
+                0,
+                0,
+                99
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                8,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 316,
+              "indent": 0,
+              "parameters": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 129,
+              "indent": 0,
+              "parameters": [
+                33,
+                0,
+                true
+              ]
+            },
+            {
+              "code": 316,
+              "indent": 0,
+              "parameters": [
+                0,
+                0,
+                0,
+                0,
+                6,
+                false
+              ]
+            },
+            {
+              "code": 125,
+              "indent": 0,
+              "parameters": [
+                0,
+                0,
+                800
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                39,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                37,
+                0,
+                0,
+                20
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                38,
+                0,
+                0,
+                10
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                40,
+                0,
+                0,
+                20
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                41,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 129,
+              "indent": 0,
+              "parameters": [
+                31,
+                0,
+                true
+              ]
+            },
+            {
+              "code": 316,
+              "indent": 0,
+              "parameters": [
+                0,
+                0,
+                0,
+                0,
+                4,
+                false
+              ]
+            },
+            {
+              "code": 126,
+              "indent": 0,
+              "parameters": [
+                10,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 129,
+              "indent": 0,
+              "parameters": [
+                34,
+                0,
+                true
+              ]
+            },
+            {
+              "code": 316,
+              "indent": 0,
+              "parameters": [
+                0,
+                0,
+                0,
+                0,
+                2,
+                false
+              ]
+            },
+            {
+              "code": 129,
+              "indent": 0,
+              "parameters": [
+                35,
+                0,
+                true
+              ]
+            },
+            {
+              "code": 129,
+              "indent": 0,
+              "parameters": [
+                32,
+                0,
+                true
+              ]
+            },
+            {
+              "code": 316,
+              "indent": 0,
+              "parameters": [
+                0,
+                0,
+                0,
+                0,
+                8,
+                false
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                19,
+                19,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                20,
+                20,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                21,
+                21,
+                0
+              ]
+            },
+            {
+              "code": 319,
+              "indent": 0,
+              "parameters": [
+                30,
+                5,
+                291
+              ]
+            },
+            {
+              "code": 202,
+              "indent": 0,
+              "parameters": [
+                1,
+                0,
+                6,
+                14,
+                3
+              ]
+            },
+            {
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                8,
+                8,
+                12,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 211,
+              "indent": 0,
+              "parameters": [
+                1
+              ]
+            },
+            {
+              "code": 314,
+              "indent": 0,
+              "parameters": [
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 3,
+          "walkAnime": true
+        }
+      ],
+      "x": 1,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "SET DEBUG",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "Set the DEBUG switch to ON in order to go directly where"
+              ]
+            },
+            {
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "you need to test"
+              ]
+            },
+            {
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "Set it to OFF in the release version, or to test the full"
+              ]
+            },
+            {
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "game !"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                2,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 123,
+              "indent": 0,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                3,
+                3,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 3,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 0,
+      "y": 0
+    }
+  ]
 }
