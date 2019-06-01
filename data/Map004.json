@@ -3781,6 +3781,18 @@
           },
           "list": [
             {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Equip1",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
               "code": 101,
               "indent": 0,
               "parameters": [
@@ -3925,6 +3937,18 @@
             "tileId": 0
           },
           "list": [
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Equip1",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
             {
               "code": 126,
               "indent": 0,
@@ -4122,6 +4146,23 @@
               "indent": 0,
               "parameters": [
                 "1* Pickaxe"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "It will be useful for mining or clearing the way."
               ]
             },
             {
@@ -4440,28 +4481,21 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "Quand vous vous sentirez pr\u00eat \u00e0 quitter le"
+                "When you're ready to leave the HQ, have"
               ]
             },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "QG, allez dormir. Un effondrement bloque le"
+                "some sleep. Some rocks are obstructing the"
               ]
             },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "chemin. Il faudrait trouver une pioche pour"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "le d\u00e9blayer."
+                "way. Maybe a pickaxe could help with that."
               ]
             },
             {
